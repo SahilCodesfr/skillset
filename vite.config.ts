@@ -6,6 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
+    allowedHosts: ['radio-synapse-antitoxic.ngrok-free.dev'],
     host: "::",
     port: 8080,
     hmr: {
